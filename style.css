@@ -1,0 +1,640 @@
+/* style generale */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  letter-spacing: 2px;
+}
+h2 {
+  letter-spacing: 2px;
+}
+h3 {
+  letter-spacing: 2px;
+}
+h4 {
+  letter-spacing: 2px;
+}
+
+/* HEADER */
+
+header {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 0%;
+  position: fixed;
+  z-index: 100;
+  border-bottom: #b1494a solid 7px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 150px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/* barre de naviguation */
+
+nav {
+  float: right;
+  margin-right: 50px;
+}
+
+li {
+  display: inline;
+  width: 60px;
+}
+
+.menu a {
+  list-style: none;
+  text-decoration: none;
+  color: #0b0a0a;
+  margin-right: 100px;
+}
+
+nav button {
+  border: #b1494a solid;
+  border-radius: 7px;
+  color: #b1494a;
+  padding: 7px;
+  width: 120px;
+}
+
+/* MAIN CONTAINER */
+
+.main-container {
+  margin: 0px;
+}
+
+/* page 1 */
+
+.container-1 {
+  width: auto;
+  padding-bottom: 0%;
+  height: 820px;
+}
+
+.img-back {
+  bottom: 20px;
+  height: 820px;
+  width: 100%;
+  background-size: cover;
+}
+
+.text-img {
+  color: white;
+  position: relative;
+  width: 600px;
+  font-size: 35px;
+  font-weight: bold;
+  bottom: 300px;
+  left: 550px;
+}
+
+.p-trait::before {
+  display: inline-block;
+  content: "";
+  width: 270px;
+  border: 3px white solid;
+  background-color: white;
+  margin: 10px;
+}
+
+/* HEADER PAGE 2*/
+
+#header2 {
+  display: flex;
+  width: 100%;
+  background-color: #b1494a;
+  align-items: center;
+  height: 120px;
+}
+
+.guitar {
+  width: 300px;
+  margin: 0;
+  color: #fcfaf1;
+  margin-left: 20px;
+}
+
+/* CONTENU PAGE 2  */
+
+#container2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* texte et titre page 2 */
+
+.main-text {
+  width: 600px;
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-left: 30px;
+  justify-content: justify;
+  text-align: justify;
+}
+
+.text1 h3 {
+  margin-top: 20px;
+  text-align: left;
+}
+.text2 h3 {
+  text-align: right;
+  margin-top: 80px;
+}
+.text3 h3 {
+  text-align: left;
+  margin-top: 80px;
+}
+
+.text {
+  letter-spacing: 2px;
+  line-height: 250%;
+}
+
+.musique::after {
+  content: " ";
+  position: relative;
+  display: block;
+  width: 300px;
+  border: 3px #b1494a solid;
+  background-color: #b1494a;
+  left: 300px;
+  bottom: 13px;
+}
+.metier::after {
+  content: " ";
+  position: relative;
+  display: block;
+  width: 345px;
+  border: 3px #b1494a solid;
+  background-color: #b1494a;
+  left: 245px;
+  bottom: 13px;
+}
+.nirvana::before {
+  content: " ";
+  position: relative;
+  display: block;
+  width: 320px;
+  border: 3px #b1494a solid;
+  background-color: #b1494a;
+  top: 14px;
+}
+
+/* GROUPE-images page 2 */
+
+.img-page2 {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  width: 600px;
+  margin-right: 30px;
+  margin-top: 40px;
+}
+
+.img1 {
+  align-items: right;
+  order: 1;
+  margin-right: 5px;
+  margin-left: 30px;
+  margin-top: 17px;
+
+  height: 450px;
+}
+.img2 {
+  align-items: left;
+  margin-left: 5px;
+  margin-top: 17px;
+  order: 1;
+  height: 450px;
+}
+.img3 {
+  order: 3;
+  margin-top: 2px;
+  margin-left: 30px;
+  width: 555px;
+  margin-bottom: 50px;
+}
+
+/* PAGE 3 HEADER-TITRE-TEXTE*/
+
+#header3 {
+  margin-top: 40px;
+  height: 120px;
+  background-color: #b1494a;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nos-grattes {
+  margin-right: 50px;
+  color: #fcfaf1;
+}
+
+.text-guitar {
+  width: 40%;
+  text-align: justify;
+  margin-top: 60px;
+  margin-left: 30%;
+}
+
+.text-guitar h3 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.title-stock::after {
+  content: " ";
+  position: relative;
+  display: block;
+  width: 100px;
+  border: 3px #b1494a solid;
+  background-color: #b1494a;
+  left: 380px;
+  bottom: 13px;
+}
+
+.text{margin-bottom: 70px;}
+
+/* PAGE 3 LES GUITARES ACHETER */
+
+.card-guitar {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.card {
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.img-guitar {
+  width: 200px;
+  height: 270px;
+}
+.acheter {
+  border-radius: 6px;
+  color: white;
+  background-color: #b1494a;
+}
+
+.title-fender {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-gibson {
+  margin-bottom: 40px;
+}
+
+.title-paul {
+  position: relative;
+  margin-top: 40px;
+  bottom: 15px;
+  padding-bottom: 0%;
+}
+.wrong-price {
+  padding-right: 10px;
+}
+.price-paul {
+  position: relative;
+  bottom: 22px;
+}
+
+.wrong-price::before {
+  content: " ";
+  position: relative;
+  display: block;
+  border-top: 2px #131212 solid;
+  width: 50px;
+  left: 38px;
+  top: 11px;
+}
+
+.acheter-paul {
+  position: relative;
+  background-color: #b1494a;
+  color: white;
+  border-radius: 6px;
+  bottom: 20px;
+}
+
+/* PAGE 4  HEADER-TITRE*/
+
+#header4 {
+  height: 120px;
+  background-color: #b1494a;
+  display: flex;
+  align-items: center;
+}
+
+.title-mot {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.trait-mot::before {
+  content: " ";
+  position: relative;
+  display: block;
+  border: 3px #b1494a solid;
+  background-color: #b1494a;
+  width: 100px;
+  left: 405px;
+  top: 12px;
+}
+
+/* PAGE 4 FORMULAIRE */
+
+.form {
+  width: 70%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  justify-items: center;
+  justify-self: center;
+}
+
+.name {
+  margin-left: 200px;
+}
+
+.telemail {
+  justify-content: center;
+  display: flex;
+  width: 400px;
+  margin-left: 250px;
+  margin-top: 30px;
+}
+.phone {
+  margin-left: 20px;
+}
+
+.get-name {
+  margin-top: 10px;
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+  border: #b1494a solid;
+}
+.get-name::placeholder {
+  padding: 5px;
+  opacity: 50%;
+}
+
+.get-mail {
+  margin-top: 10px;
+  width: 235px;
+  height: 25px;
+  border-radius: 5px;
+  border: #b1494a solid;
+}
+.get-mail::placeholder {
+  padding: 5px;
+  opacity: 50%;
+}
+
+.get-number {
+  margin-top: 10px;
+  width: 235px;
+  height: 25px;
+  border-radius: 5px;
+  border: #b1494a solid;
+  margin-left: 0px;
+}
+.get-number::placeholder {
+  padding: 5px;
+  opacity: 50%;
+}
+
+.message {
+  margin-top: 20px;
+  margin-left: 200px;
+}
+.text-size {
+  margin-top: 10px;
+  width: 500px;
+  height: 200px;
+  border: #b1494a solid;
+  border-radius: 6px;
+}
+
+textarea::placeholder {
+  width: 400px;
+  padding: 10px;
+  text-align: justify;
+  opacity: 50%;
+}
+
+.valider {
+  margin-top: 20px;
+  margin-left: 400px;
+  border-radius: 6px;
+  background-color: #b1494a;
+  color: white;
+  font-weight: bolder;
+
+}
+
+/* MEDIA */
+
+@media screen and (max-width: 769px) {
+
+  /* PAGE 1  */
+
+  .img-back {
+    bottom: 20px;
+    height: 820px;
+    width: 150%;
+    background-size: cover;
+  }
+
+  /* PAGE 2 */
+
+  #header2 {
+    width: 150%;
+  }
+
+  #container2 {
+    display: flex;
+    justify-content: space-between;
+    width: 150%;
+  }
+
+  .main-text {
+    width: 75%;
+    justify-content: justify;
+    text-align: justify;
+  }
+  .text1 h3 {
+    margin-top: 0px;
+  }
+  .text2 h3 {
+    margin-top: 0px;
+    margin-left: 100px;
+  }
+
+  .text3 h3 {
+    margin-top: 0px;
+  }
+
+  .img-page2 {
+    display: flex;
+    margin-right: 0px;
+    margin-top: 0px;
+    
+    justify-content: center;
+    width: 80%%;
+  }
+
+  .img1 {
+    align-items: right;
+    order: 1;
+    margin-right: 5px;
+    margin-left: 0px;
+    margin-top: 20px;
+    height: 400px;
+  }
+  .img2 {
+    align-items: left;
+    margin-left: 5px;
+    margin-top: 20px;
+    order: 1;
+    height: 400px;
+  }
+  .img3 {
+    order: 3;
+    margin-top: 0px;
+    margin-left: 0px;
+    height: auto;
+    width: 500px;
+    margin-bottom: 0px;
+  }
+  .musique::after {
+    width: 290px;
+    left: 300px;
+    bottom: 13px;
+  }
+  .metier::after {
+    width: 330px;
+    left: 245px;
+    bottom: 13px;
+  }
+  .nirvana::before {
+    width: 300px;
+    margin-right: 50px;
+    right: 90px;
+    top: 14px;
+  }
+
+  /* PAGE 3 */
+
+  .container3{
+    width: 150%;
+  }
+
+  #header3 {
+    margin-top: 40px;
+    width: 100%;
+    background-color: #b1494a;
+  }
+
+  /*  PAGE 4  */
+
+  .container4{width: 150%;}
+
+  #header4 {width: 100%;}
+
+  .trait-mot::before {
+    
+    width: 100px;
+    left: 350px;
+    top: 12px;
+  }
+
+  /* FORMULAIRE */
+
+  .form {
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    justify-items: center;
+    justify-self: center;
+  }
+  
+  .name {
+    margin-left: 15%;
+  }
+  
+  .telemail {
+    justify-content: center;
+    display: flex;
+    width: 400px;
+    margin-left: 27%;
+    margin-top: 30px;
+  }
+  .phone {
+    margin-left: 20px;
+  }
+  
+  .get-name {
+    margin-top: 10px;
+    width: 250px;
+    height: 25px;
+  }
+ 
+  .get-mail {
+    margin-top: 10px;
+    width: 300px;
+    height: 25px;
+  }
+ 
+  .get-number {
+    margin-top: 10px;
+    width: 250px;
+    height: 25px;
+    margin-left: 0px;
+  }
+
+  .message {
+    margin-top: 20px;
+    margin-left: 15%;
+  }
+  .text-size {
+    margin-top: 10px;
+    width: 600px;
+    height: 200px;
+    
+  }
+  
+  textarea::placeholder {
+    width: 400px;
+    padding: 10px;
+
+  }
+  
+  .valider {
+    margin-top: 20px;
+    margin-left: 40%;
+    border-radius: 6px;
+    background-color: #b1494a;
+    color: white;
+    font-weight: bolder;
+  
+  }
